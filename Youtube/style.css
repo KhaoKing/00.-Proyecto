@@ -64,13 +64,27 @@ body {
   border: none;
   border-radius: 0;
 }
+              /* AGREGADO POR LEONARDO */
+              .barra {
+                display: flex;
+                background:black;
+                gap: 15px;
+                align-items: center;
+                justify-content: center;
+              }
 
-.barra {
-  flex: 0px;
-  background:black;
-  text-align: center;
-}
-
+              .barra button{
+                background-color: rgb(36, 36, 36);
+                color: white;
+                width: auto;
+                height: 35px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 10px;
+                border-style: none;
+              }
+              /* AGREGADO POR LEONARDO */
 
 
 /* Sidebar */
